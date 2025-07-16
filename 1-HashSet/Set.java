@@ -15,7 +15,7 @@ public class Set {
     }
     public static HashSet<Integer> unionOfSets(HashSet<Integer> set1, HashSet<Integer>set2 ){
         HashSet<Integer> ansSet = new HashSet<>();
-        Iterator it = set1.iterator();
+        // Iterator it = set1.iterator();
         for(Integer i: set1){
             ansSet.add(i);
         }
@@ -103,7 +103,7 @@ public class Set {
 
     }
     public static void main(String[] args) {
-        int arr [] = {1,2,3,4,4,5,6,7,7,7,8,1};
+        // int arr [] = {1,2,3,4,4,5,6,7,7,7,8,1};
         // System.out.println(countDistinct(arr));
         HashSet<Integer> set1 = new HashSet<>();
         HashSet<Integer> set2 = new HashSet<>();
