@@ -6,6 +6,16 @@ import java.util.Queue;
 // 2 => bfs, dfs, hasPath
 
 public class BfsLevelOrder {
+    static class Edge{
+        int start; 
+        int end; 
+        int weight;
+        Edge(int start, int end, int weight){
+            this.start = start;
+            this.weight= weight;
+            this.end = end;
+        }
+    }
  
     public static void graphInit(ArrayList<Edge>[] graph){
         for(int i = 0; i<graph.length; i++ ){

@@ -1,6 +1,4 @@
-package GitsPushed;
-
-// import java.util.LinkedList;
+package LinkedList1;
 
 public class LinkedList1 {
     static class Node {
